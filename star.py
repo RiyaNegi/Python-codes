@@ -1,7 +1,12 @@
 import sys
 print("heelllooooo")
-for i in range(0,5):
-    for a in range(0,5):
-        print(" ")*a
-        for x in range(5,0,-1):
-            print("*")*x
+
+star=5
+space=0
+
+while(star != 0):
+    sys.stdout.write(" "*space)
+    sys.stdout.write("*"*star)
+    print("\n")
+    space+=1
+    star-=1

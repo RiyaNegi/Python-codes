@@ -1,9 +1,10 @@
-print("hello giters")
+print("hell giters")
 
-prime = False
-x = 4
-for i in range (1, x-1):
-    if x!=i and (x%i) != 0:
-        prime = True
+prime = True
+x = 20
+for i in range (2, x):
+    if x!=i and (x%i) == 0:
+        prime = False
+    break
 
 print(prime)
